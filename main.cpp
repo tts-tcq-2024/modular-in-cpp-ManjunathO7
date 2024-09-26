@@ -10,6 +10,5 @@ int main() {
 
     std::cout << "\nColor Coding Reference Manual:\n" << std::endl;
     PrintColorCodingManual();
-    
     return 0;
 }
