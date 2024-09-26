@@ -3,8 +3,8 @@
 
 namespace TeleCommunicationColorCode
 {
-    const char* MajorColorNames[5] = { "White", "Red", "Black", "Yellow", "Violet" };
-    const char* MinorColorNames[5] = { "Blue", "Orange", "Green", "Brown", "Slate" };
+    const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
+    const char* MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
 
     int ColorPair::numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
     int ColorPair::numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
